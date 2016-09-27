@@ -35,4 +35,6 @@ function tzr_image_resources( $post_thumbnail ) {
     return $server !== $tzr ? str_replace($server, $tzr, $post_thumbnail) : $post_thumbnail;
 }
 add_filter( 'post_thumbnail_html', 'tzr_image_resources' );
+add_filter( 'wp_get_attachment_image', 'tzr_image_resources' );
 add_filter( 'wp_get_attachment_image_src', 'tzr_image_resources' );
+add_filter( 'wp_get_attachment_image_srcset', 'tzr_image_resources' );
