@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: ZMG Staging Site Resources
-Description: Loads TZR Image Assets
+Description: Loads Your Image Assets from Your Production Blog so you don't have to store hundreds of gigabytes of data across multiple servers. Simply specify a domain where the images are stored.
 Author: Adrian Boisclair
 Version: 0.7.0
 */
